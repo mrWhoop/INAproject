@@ -68,7 +68,7 @@ def components(G):
         C.append(component(G, N, next(iter(N))))
     return C
 
-print(nx.number_strongly_connected_components(nx.DiGraph(nx.read_pajek("nets/wikispeedia.net"))))
+print(nx.number_strongly_connected_components(nx.MultiDiGraph(nx.read_pajek("nets/wikispeedia.net"))))
 
 G, n, m = None, 0, 0
 with open("nets/wikispeedia.net", 'r') as file:

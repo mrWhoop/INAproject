@@ -1,7 +1,7 @@
 import networkx as nx
 import random
 
-G = nx.read_pajek('nets\wikispeedia.net')
+G = nx.read_pajek('nets/wikispeedia.net')
 
 # SIZE
 print(f'Size: n = {len(G.nodes())}')
