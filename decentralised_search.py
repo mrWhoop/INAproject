@@ -102,8 +102,10 @@ for i in range(500):
 
     if pathLength is None:
         failed += 1
+        print("Fail", "\n----------------\n")
     else:
         path_lengths.append(pathLength)
+        print(pathLength, "\n----------------\n")
 
 avg = sum(path_lengths)/len(path_lengths)
 print("average path: " + str(avg))
