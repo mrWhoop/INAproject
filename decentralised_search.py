@@ -1,5 +1,6 @@
 import networkx as nx
 from random import choice
+import statistics
 
 wiki = nx.read_pajek('nets/wikispeedia.net')
 
@@ -107,7 +108,8 @@ for i in range(500):
 avg = sum(path_lengths)/len(path_lengths)
 print("average path: " + str(avg))
 print("failed: " + str(failed))
-
+median = statistics.median(path_lengths)
+print("median: " + str(median))
 
 print("do not traverse the same edges")
 
@@ -131,3 +133,5 @@ for i in range(500):
 avg = sum(path_lengths)/len(path_lengths)
 print("average path: " + str(avg))
 print("failed: " + str(failed))
+median = statistics.median(path_lengths)
+print("median: " + str(median))
