@@ -1,5 +1,6 @@
 import networkx as nx
 from random import choice
+from statistics import median
 
 wiki = nx.read_pajek('nets/wikispeedia.net')
 print(nx.info(wiki))
@@ -45,7 +46,7 @@ def bfs_nx(G, start, finish):
       print("Path exists: ", exists)
       print("Step count:", count)
       return start, end, count, path
-    for j in nx.neighbors(G, i):
+    for j in G.neighbors(i):
       if j in N:
         v += 1
         N.remove(j)
@@ -56,7 +57,7 @@ def bfs_nx(G, start, finish):
 path_lengths = list()
 failed = 0
 
-for i in range(1000):
+for i in range(500):
     print(i)
     start = choice(list(wikiSub.nodes()))
     end = choice(list(wikiSub.nodes()))
@@ -72,5 +73,6 @@ for i in range(1000):
     print("\n----------------\n")
 
 avg = sum(path_lengths)/len(path_lengths)
-print("\naverage path: " + str(avg))
+print("\naverage path length: " + str(avg))
+print("\nmedian path length: " + str(median(path_lengths)))
 print("failed: " + str(failed))

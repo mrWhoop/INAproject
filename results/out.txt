@@ -1,0 +1,892 @@
+
+average steps: 129.92352941176472
+median steps: 54.0
+failed: 330
+
+Name:
+Type: MultiDiGraph
+Number of nodes: 4604
+Number of edges: 119882
+Average in degree:  26.0387
+Average out degree:  26.0387
+--------------------------------
+Name:
+Type: MultiDiGraph
+Number of nodes: 4051
+Number of edges: 111900
+Average in degree:  27.6228
+Average out degree:  27.6228
+Some weights of the model checkpoint at C:\Users\Lovro/.cache\torch\sentence_transformers\sbert.net_models_bert-base-nli-mean-tokens\0_BERT were not used when initializing BertModel: ['classifier.weight', 'classifier.bias']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+0
+Arctic_Tern Stag_beetle
+Found!
+Path: ['Arctic_Tern', 'Insect', 'Beetle', 'Stag_beetle']
+Path length: 4
+Path exists:  True
+Step count: 82
+
+----------------
+
+1
+Flemish_people The_Rime_of_the_Ancient_Mariner
+To much steps!
+
+----------------
+
+2
+Paul_Dirac Tourette_syndrome
+Found!
+Path: ['Paul_Dirac', 'Asperger_syndrome', 'Tourette_syndrome']
+Path length: 3
+Path exists:  True
+Step count: 7
+
+----------------
+
+3
+Damascus_steel Doom
+To much steps!
+
+----------------
+
+4
+Molybdenum Merrimack_River
+Found!
+Path: ['Molybdenum', '19th_century', 'Erie_Canal', 'Canal', 'Merrimack_River']
+Path length: 5
+Path exists:  True
+Step count: 732
+
+----------------
+
+5
+Ununbium Poultry
+To much steps!
+
+----------------
+
+6
+Malawi Roman_Empire
+Found!
+Path: ['Malawi', 'List_of_sovereign_states', 'Romania', 'Roman_Empire']
+Path length: 4
+Path exists:  True
+Step count: 42
+
+----------------
+
+7
+Chocolate John_Howard
+To much steps!
+
+----------------
+
+8
+Spacecraft_propulsion Health
+Found!
+Path: ['Spacecraft_propulsion', 'Sun', 'Oxygen', 'Medicine', 'Health']
+Path length: 5
+Path exists:  True
+Step count: 181
+
+----------------
+
+9
+William_Renshaw Nuclear_power
+Found!
+Path: ['William_Renshaw', 'Pete_Sampras', 'United_States', 'Nuclear_power']
+Path length: 4
+Path exists:  True
+Step count: 56
+
+----------------
+
+10
+Acetone Obi-Wan_Kenobi
+To much steps!
+
+----------------
+
+11
+Henry_Rollins Law
+Found!
+Path: ['Henry_Rollins', 'United_States', 'Country', 'Law']
+Path length: 4
+Path exists:  True
+Step count: 14
+
+----------------
+
+12
+Stock Vanilla
+Found!
+Path: ['Stock', 'United_States', 'Martinique', 'Cocoa', 'Vanilla']
+Path length: 5
+Path exists:  True
+Step count: 573
+
+----------------
+
+13
+Rainforest Autism
+Found!
+Path: ['Rainforest', 'Extinction', 'Smallpox', 'Measles', 'Autism']
+Path length: 5
+Path exists:  True
+Step count: 182
+
+----------------
+
+14
+Caratacus Alan_Turing
+To much steps!
+
+----------------
+
+15
+Katana F-35_Lightning_II
+Found!
+Path: ['Katana', 'World_War_II', 'Supermarine_Spitfire', 'Aircraft_carrier', 'F-35_Lightning_II']
+Path length: 5
+Path exists:  True
+Step count: 136
+
+----------------
+
+16
+Drinking_water Dubnium
+To much steps!
+
+----------------
+
+17
+Synthesizer Ukulele
+To much steps!
+
+----------------
+
+18
+Brain Atlanta,_Georgia
+Found!
+Path: ['Brain', 'Southern_United_States', 'Atlanta,_Georgia']
+Path length: 3
+Path exists:  True
+Step count: 7
+
+----------------
+
+19
+Muscat,_Oman Marshall_Plan
+Found!
+Path: ['Muscat,_Oman', 'Paul_of_Tarsus', 'Martin_Luther', 'Germany', 'Marshall_Plan']
+Path length: 5
+Path exists:  True
+Step count: 593
+
+----------------
+
+20
+Imagism Lawrencium
+To much steps!
+
+----------------
+
+21
+Cook_Islands Badger
+Found!
+Path: ['Cook_Islands', 'Niue', 'Tropics', 'Winter', 'Badger']
+Path length: 5
+Path exists:  True
+Step count: 227
+
+----------------
+
+22
+DNA Earth's_atmosphere
+Found!
+Path: ['DNA', 'Nature', "Earth's_atmosphere"]
+Path length: 3
+Path exists:  True
+Step count: 22
+
+----------------
+
+23
+Meteorological_history_of_Hurricane_Katrina Telephone
+Found!
+Path: ['Meteorological_history_of_Hurricane_Katrina', 'United_States', 'Electronics', 'Telephone']
+Path length: 4
+Path exists:  True
+Step count: 32
+
+----------------
+
+24
+Minnesota Electric_field
+Found!
+Path: ['Minnesota', 'Electricity', 'Electric_field']
+Path length: 3
+Path exists:  True
+Step count: 7
+
+----------------
+
+25
+Chaffinch Archaeopteryx
+Found!
+Path: ['Chaffinch', 'Scientific_classification', 'Evolution', 'Archaeopteryx']
+Path length: 4
+Path exists:  True
+Step count: 64
+
+----------------
+
+26
+Quark Virginian_Railway
+To much steps!
+
+----------------
+
+27
+Natural_disaster Vitamin
+Found!
+Path: ['Natural_disaster', 'Water', 'Bacteria', 'Vitamin']
+Path length: 4
+Path exists:  True
+Step count: 47
+
+----------------
+
+28
+Electrical_resistance Peter_Grimes
+To much steps!
+
+----------------
+
+29
+Egg_(food) Richard_Francis_Burton
+To much steps!
+
+----------------
+
+30
+Poetry_of_the_United_States Christian_monasticism
+To much steps!
+
+----------------
+
+31
+Cubeb Airship
+Found!
+Path: ['Cubeb', 'Alchemy', 'Planet', 'Helium', 'Airship']
+Path length: 5
+Path exists:  True
+Step count: 413
+
+----------------
+
+32
+Promethium Edward_the_Confessor
+Found!
+Path: ['Promethium', 'Neptunium', 'Barium', 'England', 'Edward_the_Confessor']
+Path length: 5
+Path exists:  True
+Step count: 231
+
+----------------
+
+33
+Hungary Colossus_of_Rhodes
+To much steps!
+
+----------------
+
+34
+Isospin Theropoda
+Found!
+Path: ['Isospin', 'Physics', 'Earth', 'Dinosaur', 'Theropoda']
+Path length: 5
+Path exists:  True
+Step count: 517
+
+----------------
+
+35
+Diego_Garcia Mekong
+To much steps!
+
+----------------
+
+36
+Radon Mount_Osmond,_South_Australia
+Found!
+Path: ['Radon', 'Japan', 'Australia', 'Adelaide', 'Mount_Osmond,_South_Australia']
+Path length: 5
+Path exists:  True
+Step count: 628
+
+----------------
+
+37
+Rabbit Anthropology
+Found!
+Path: ['Rabbit', 'Scientific_classification', 'Human', 'Anthropology']
+Path length: 4
+Path exists:  True
+Step count: 52
+
+----------------
+
+38
+Differential_equation East_Africa
+Found!
+Path: ['Differential_equation', 'Biology', 'Africa', 'East_Africa']
+Path length: 4
+Path exists:  True
+Step count: 82
+
+----------------
+
+39
+Star_Trek Magnet
+Found!
+Path: ['Star_Trek', 'Earth', 'Plasma_(physics)', 'Physics', 'Magnet']
+Path length: 5
+Path exists:  True
+Step count: 162
+
+----------------
+
+40
+Ulawun Supply_and_demand
+Found!
+Path: ['Ulawun', 'Papua_New_Guinea', 'Currency', 'Stock', 'Supply_and_demand']
+Path length: 5
+Path exists:  True
+Step count: 153
+
+----------------
+
+41
+GNU Ukraine
+Found!
+Path: ['GNU', 'Internet', 'Europe', 'Ukraine']
+Path length: 4
+Path exists:  True
+Step count: 84
+
+----------------
+
+42
+River_Severn Fruit
+Found!
+Path: ['River_Severn', 'Wader', 'Bird', 'Plant', 'Fruit']
+Path length: 5
+Path exists:  True
+Step count: 149
+
+----------------
+
+43
+Flag_of_South_Africa Sleep
+Found!
+Path: ['Flag_of_South_Africa', 'Gold', 'Cancer', 'Morphine', 'Sleep']
+Path length: 5
+Path exists:  True
+Step count: 476
+
+----------------
+
+44
+Tornado Grevy's_Zebra
+Found!
+Path: ['Tornado', 'Southern_Africa', 'Lion', 'Zebra', "Grevy's_Zebra"]
+Path length: 5
+Path exists:  True
+Step count: 155
+
+----------------
+
+45
+Mysticism 47_Ursae_Majoris_b
+To much steps!
+
+----------------
+
+46
+Batman Star_Wars_Episode_IV__A_New_Hope
+To much steps!
+
+----------------
+
+47
+Banksy Penda_of_Mercia
+Found!
+Path: ['Banksy', 'England', 'Mercia', 'Penda_of_Mercia']
+Path length: 4
+Path exists:  True
+Step count: 32
+
+----------------
+
+48
+The_Gambia Peafowl
+To much steps!
+
+----------------
+
+49
+Isle_of_Man Continental_crust
+Found!
+Path: ['Isle_of_Man', 'Europe', 'Ice_age', 'Plate_tectonics', 'Continental_crust']
+Path length: 5
+Path exists:  True
+Step count: 157
+
+----------------
+
+50
+Zulu Battle_of_Austerlitz
+Found!
+Path: ['Zulu', 'Shaka', 'Napoleon_I_of_France', 'Battle_of_Austerlitz']
+Path length: 4
+Path exists:  True
+Step count: 55
+
+----------------
+
+51
+Day Steel
+Found!
+Path: ['Day', 'Time', 'Technology', 'Steel']
+Path length: 4
+Path exists:  True
+Step count: 62
+
+----------------
+
+52
+William_Henry_Harrison Cello
+To much steps!
+
+----------------
+
+53
+Magnet Shielded_metal_arc_welding
+Found!
+Path: ['Magnet', 'Steel', 'Tungsten', 'Gas_tungsten_arc_welding', 'Shielded_metal_arc_welding']
+Path length: 5
+Path exists:  True
+Step count: 320
+
+----------------
+
+54
+Van_Halen Mahmoud_Abbas
+To much steps!
+
+----------------
+
+55
+Mercantilism Edema
+Found!
+Path: ['Mercantilism', 'Metal', 'Fluorine', 'Eye', 'Edema']
+Path length: 5
+Path exists:  True
+Step count: 557
+
+----------------
+
+56
+Crown_Jewels_of_the_United_Kingdom Muttaburrasaurus
+To much steps!
+
+----------------
+
+57
+Hurricane_Mitch Star
+Found!
+Path: ['Hurricane_Mitch', 'Great_Britain', 'Ptolemy', 'Astrology', 'Star']
+Path length: 5
+Path exists:  True
+Step count: 315
+
+----------------
+
+58
+Globe_Theatre Tutsi
+Found!
+Path: ['Globe_Theatre', 'Macbeth', 'Haiti', 'Africa', 'Tutsi']
+Path length: 5
+Path exists:  True
+Step count: 262
+
+----------------
+
+59
+San_Marino Country
+Found!
+Path: ['San_Marino', 'List_of_countries', 'Country']
+Path length: 3
+Path exists:  True
+Step count: 7
+
+----------------
+
+60
+Tin(II)_chloride Yeti
+To much steps!
+
+----------------
+
+61
+Windows_Vista Luxembourg
+Found!
+Path: ['Windows_Vista', 'European_Union', 'Luxembourg']
+Path length: 3
+Path exists:  True
+Step count: 7
+
+----------------
+
+62
+Cosmic_inflation Calcium_chloride
+Found!
+Path: ['Cosmic_inflation', "Hubble's_law", 'Albert_Einstein', 'Uranium', 'Calcium_chloride']
+Path length: 5
+Path exists:  True
+Step count: 293
+
+----------------
+
+63
+Sputnik_2 Fascism
+Found!
+Path: ['Sputnik_2', 'Soviet_Union', 'Nazi_Germany', 'Fascism']
+Path length: 4
+Path exists:  True
+Step count: 57
+
+----------------
+
+64
+Southern_United_States Bjørnøya
+Found!
+Path: ['Southern_United_States', 'United_States', 'Greenland', 'Arctic', 'Bjørnøya']
+Path length: 5
+Path exists:  True
+Step count: 177
+
+----------------
+
+65
+Sulfur Varanasi
+Found!
+Path: ['Sulfur', 'India', 'Bangalore', 'Indian_Railways', 'Varanasi']
+Path length: 5
+Path exists:  True
+Step count: 259
+
+----------------
+
+66
+Mu_Arae Mother_Teresa
+To much steps!
+
+----------------
+
+67
+Martin_Van_Buren St_Paul's_Cathedral
+Found!
+Path: ['Martin_Van_Buren', 'United_Kingdom', 'Westminster_Abbey', "St_Paul's_Cathedral"]
+Path length: 4
+Path exists:  True
+Step count: 52
+
+----------------
+
+68
+Santiago,_Chile Miranda_Otto
+To much steps!
+
+----------------
+
+69
+Brahman Battle_of_Marathon
+Found!
+Path: ['Brahman', 'Latin', 'Ancient_Rome', 'War', 'Battle_of_Marathon']
+Path length: 5
+Path exists:  True
+Step count: 207
+
+----------------
+
+70
+Mona_Lisa Yorkshire_Dales
+To much steps!
+
+----------------
+
+71
+Laurence_Olivier George_Fox
+Found!
+Path: ['Laurence_Olivier', 'England', 'Leicester', 'George_Fox']
+Path length: 4
+Path exists:  True
+Step count: 599
+
+----------------
+
+72
+Charles_Babbage The_Beatles
+Found!
+Path: ['Charles_Babbage', 'England', 'The_Beatles']
+Path length: 3
+Path exists:  True
+Step count: 7
+
+----------------
+
+73
+String_theory The_Canadian
+Found!
+Path: ['String_theory', 'Switzerland', 'United_States', 'Canada', 'Canadian_Pacific_Railway', 'The_Canadian']
+Path length: 6
+Path exists:  True
+Step count: 906
+
+----------------
+
+74
+Ivory-billed_Woodpecker Pterosaur
+Found!
+Path: ['Ivory-billed_Woodpecker', 'Beetle', 'Triassic', 'Pterosaur']
+Path length: 4
+Path exists:  True
+Step count: 37
+
+----------------
+
+75
+Coconut_crab Yugoslavia
+Found!
+Path: ['Coconut_crab', 'Germany', 'Yugoslavia']
+Path length: 3
+Path exists:  True
+Step count: 22
+
+----------------
+
+76
+Yellow_fever Ethiopian_Wolf
+To much steps!
+
+----------------
+
+77
+Lighting_designer Pyongyang
+Found!
+Path: ['Lighting_designer', 'Theatre', 'United_States', 'North_Korea', 'Pyongyang']
+Path length: 5
+Path exists:  True
+Step count: 33
+
+----------------
+
+78
+Karachi Frederick_II,_Holy_Roman_Emperor
+Found!
+Path: ['Karachi', 'British_Empire', 'Henry_VII_of_England', 'Holy_Roman_Empire', 'Frederick_II,_Holy_Roman_Emperor']
+Path length: 5
+Path exists:  True
+Step count: 182
+
+----------------
+
+79
+Scottish_mythology U.S._state
+Found!
+Path: ['Scottish_mythology', 'Mythology', 'Culture', 'United_States', 'U.S._state']
+Path length: 5
+Path exists:  True
+Step count: 200
+
+----------------
+
+80
+Soil_moisture Pleiades_(star_cluster)
+Found!
+Path: ['Soil_moisture', "Earth's_atmosphere", 'Planet', 'Star', 'Pleiades_(star_cluster)']
+Path length: 5
+Path exists:  True
+Step count: 167
+
+----------------
+
+81
+Turkish_Republic_of_Northern_Cyprus Celeriac
+To much steps!
+
+----------------
+
+82
+William_N._Page Chola_dynasty
+Found!
+Path: ['William_N._Page', 'United_States', 'Malaysia', 'Tamil_people', 'Chola_dynasty']
+Path length: 5
+Path exists:  True
+Step count: 548
+
+----------------
+
+83
+Penguin Double-decker_bus
+To much steps!
+
+----------------
+
+84
+Cardiff Swan
+Found!
+Path: ['Cardiff', 'Jurassic', 'Saurischia', 'Bird', 'Swan']
+Path length: 5
+Path exists:  True
+Step count: 651
+
+----------------
+
+85
+Boa Skylark
+To much steps!
+
+----------------
+
+86
+Israel Volleyball
+Found!
+Path: ['Israel', 'Basketball', 'Volleyball']
+Path length: 3
+Path exists:  True
+Step count: 7
+
+----------------
+
+87
+Sesame Beer
+Found!
+Path: ['Sesame', 'Honey', 'Beer']
+Path length: 3
+Path exists:  True
+Step count: 12
+
+----------------
+
+88
+England Ghost_Dance
+To much steps!
+
+----------------
+
+89
+Chemical_synapse Long_pepper
+To much steps!
+
+----------------
+
+90
+Electromagnetic_radiation Obi-Wan_Kenobi
+To much steps!
+
+----------------
+
+91
+Azerbaijani_people Ariel_Sharon
+Found!
+Path: ['Azerbaijani_people', 'Judaism', 'Israel', 'Ariel_Sharon']
+Path length: 4
+Path exists:  True
+Step count: 32
+
+----------------
+
+92
+Mercury_(element) Bob_Dylan
+To much steps!
+
+----------------
+
+93
+Jane_Eyre Richard_III_of_England
+Found!
+Path: ['Jane_Eyre', 'English_language', 'British_Empire', 'Richard_III_of_England']
+Path length: 4
+Path exists:  True
+Step count: 97
+
+----------------
+
+94
+Hampshire Confucius
+Found!
+Path: ['Hampshire', 'University', 'Confucianism', 'Confucius']
+Path length: 4
+Path exists:  True
+Step count: 32
+
+----------------
+
+95
+Tuberculosis Tourism
+Found!
+Path: ['Tuberculosis', 'Spain', 'Tourism']
+Path length: 3
+Path exists:  True
+Step count: 7
+
+----------------
+
+96
+Mount_Rushmore Phosphorus_trichloride
+Found!
+Path: ['Mount_Rushmore', 'Feldspar', 'Mineral', 'Phosphorus', 'Phosphorus_trichloride']
+Path length: 5
+Path exists:  True
+Step count: 157
+
+----------------
+
+97
+Button Dominican_Republic
+Found!
+Path: ['Button', 'Europe', 'San_Marino', 'Dominican_Republic']
+Path length: 4
+Path exists:  True
+Step count: 52
+
+----------------
+
+98
+Samuel_Beckett Hadrian's_Wall
+Found!
+Path: ['Samuel_Beckett', 'Moscow', 'Siege', 'Invasion', "Hadrian's_Wall"]
+Path length: 5
+Path exists:  True
+Step count: 167
+
+----------------
+
+99
+Portuguese_language Robert_Peel
+To much steps!
+
+----------------
+
+100
+George_V_of_the_United_Kingdom Kuru_(disease)
+Found!
+Path: ['George_V_of_the_United_Kingdom', 'Pneumonia', 'AIDS', 'Brain', 'Kuru_(disease)']
+Path length: 5
+Path exists:  True
+Step count: 800

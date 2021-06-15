@@ -33,16 +33,16 @@ def backtrack(m, i, j):
 
 def bfs_nx(G, start, finish, width):
   S = []
-  N = set()
-  #N.add(start)
+  N = set(G.nodes())
+  N.remove(start)
   S.append(start)
   m = dict()
   count = 0
   while S:
     i = S.pop(0)
     count += 1
-    print(count)
-    if count > 100:
+    #print(count)
+    if count > 1000:
         print("To much steps!")
         return None, None, None, None
 
@@ -57,15 +57,15 @@ def bfs_nx(G, start, finish, width):
       return start, end, count, path
 
     # get current node neighbours
-    neighbors = [n for n in G.neighbors(i)]
+    # neighbors = [n for n in G.neighbors(i)]
 
     # check if goal (end) is in the neighbourhood
     modelList = list()
     modelList.append(finish.replace("_", " "))
     for j in G.neighbors(i):
         # build sentence list
-        # if neighbor not in N:
-        if (i, j) not in N:
+        # if neighbor in not visited (N):
+        if j in N:
             modelList.append(j.replace("_", " "))
 
     # transform words
@@ -83,12 +83,11 @@ def bfs_nx(G, start, finish, width):
     promising = [i[0] for i in u][:width]
 
     for j in promising:
-      if (i, j) not in N:
+      if j not in N:
         j = j.replace(" ", "_")
-        N.add((i, j))
+        N.remove(j)
         S.append(j)
-        if not m[j]:
-            m[j] = i
+        m[j] = i
 
   print("Empty stack!")
   return None, None, None, None
@@ -96,8 +95,6 @@ def bfs_nx(G, start, finish, width):
 path_lengths = list()
 failed = 0
 width = 5
-
-bfs_nx(wikiSub, "Guinea", "Venus_and_Adonis_(opera)", width)
 
 for i in range(500):
     print(i)

@@ -1,15 +1,16 @@
 import networkx as nx
 import random
 
-G = nx.read_pajek('data\wikispeedia.net')
+G = nx.read_pajek('nets/wikispeedia.net')
 scc = max(nx.strongly_connected_components(G), key=len)
 
 G_scc = G.subgraph(scc)
 
 avg_path = 0
-num_iter = 1
+num_iter = 500
 
 for i in range(num_iter):
+    print()
     random_node1 = random.choice(list(G_scc.nodes()))
     random_node2 = random.choice(list(G_scc.nodes()))
 

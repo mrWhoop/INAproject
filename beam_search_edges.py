@@ -41,8 +41,8 @@ def bfs_nx(G, start, finish, width):
   while S:
     i = S.pop(0)
     count += 1
-    print(count)
-    if count > 100:
+    #print(count)
+    if count > 1000:
         print("To much steps!")
         return None, None, None, None
 
@@ -54,10 +54,10 @@ def bfs_nx(G, start, finish, width):
       exists = path_exists(G, path)
       print("Path exists: ", exists)
       print("Step count:", count)
-      return start, end, count, path
+      return start, finish, count, path
 
     # get current node neighbours
-    neighbors = [n for n in G.neighbors(i)]
+    # neighbors = [n for n in G.neighbors(i)]
 
     # check if goal (end) is in the neighbourhood
     modelList = list()
@@ -87,7 +87,7 @@ def bfs_nx(G, start, finish, width):
         j = j.replace(" ", "_")
         N.add((i, j))
         S.append(j)
-        if not m[j]:
+        if j not in m:
             m[j] = i
 
   print("Empty stack!")
@@ -96,8 +96,6 @@ def bfs_nx(G, start, finish, width):
 path_lengths = list()
 failed = 0
 width = 5
-
-bfs_nx(wikiSub, "Guinea", "Venus_and_Adonis_(opera)", width)
 
 for i in range(500):
     print(i)
