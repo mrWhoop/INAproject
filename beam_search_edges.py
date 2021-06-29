@@ -34,7 +34,6 @@ def backtrack(m, i, j):
 def bfs_nx(G, start, finish, width):
   S = []
   N = set()
-  #N.add(start)
   S.append(start)
   m = dict()
   count = 0
@@ -83,8 +82,8 @@ def bfs_nx(G, start, finish, width):
     promising = [i[0] for i in u][:width]
 
     for j in promising:
+      j = j.replace(" ", "_")
       if (i, j) not in N:
-        j = j.replace(" ", "_")
         N.add((i, j))
         S.append(j)
         if j not in m:
@@ -95,8 +94,8 @@ def bfs_nx(G, start, finish, width):
 
 path_lengths = list()
 failed = 0
-width = 5
-
+width = 1
+print("width:", width)
 for i in range(500):
     print(i)
     start = choice(list(wikiSub.nodes()))

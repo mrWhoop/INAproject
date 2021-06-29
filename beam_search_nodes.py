@@ -83,8 +83,8 @@ def bfs_nx(G, start, finish, width):
     promising = [i[0] for i in u][:width]
 
     for j in promising:
-      if j not in N:
-        j = j.replace(" ", "_")
+      j = j.replace(" ", "_")
+      if j in N:
         N.remove(j)
         S.append(j)
         m[j] = i
@@ -94,7 +94,10 @@ def bfs_nx(G, start, finish, width):
 
 path_lengths = list()
 failed = 0
-width = 5
+width = 1
+print("width:", width)
+
+strt, ed, pathLength, path = bfs_nx(wikiSub, "Novelty_(locomotive)", "Tufted_Duck", width)
 
 for i in range(500):
     print(i)
